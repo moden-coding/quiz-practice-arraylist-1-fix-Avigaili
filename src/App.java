@@ -29,12 +29,26 @@ public class App {
             if(input == -1){
                 break;
             }
+              System.out.println("Give me a number");
             values.add(input);
         }
 
-        System.out.println("");
-        //Write your code below here
+      
+         int sum = 0;
+           
+            for(int numbers: values){
+          if(numbers <values.get(0))
+               
+                sum = sum + numbers;
 
+            }
+             System.out.println( "Sum: " + sum);
+            
+        }
+
+     
+     
+    
 
     }
-}
+
